@@ -5,4 +5,5 @@ db.produtos.deleteMany(
 
 db.produtos.find(
   {},
-  { _id: 0, nome: 1 });
+  { _id: 0, nome: 1 },
+  );
